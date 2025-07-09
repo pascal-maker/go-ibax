@@ -17,6 +17,9 @@ const VERSION = "1.4.3"
 const BvRollbackHash = 2
 const BvIncludeRollbackHash = 3
 
+// Error constants
+var ErrInsufficientBalance = fmt.Errorf("insufficient balance")
+
 // BlockVersion is block version
 const BlockVersion = BvIncludeRollbackHash
 

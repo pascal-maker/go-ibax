@@ -110,3 +110,9 @@ require (
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace github.com/IBAX-io/go-ibax/packages/contract => ./packages/contract
+
+replace github.com/IBAX-io/go-ibax/packages/consts => ./packages/consts
+
+replace github.com/IBAX-io/go-ibax/packages/storage => ./packages/storage
